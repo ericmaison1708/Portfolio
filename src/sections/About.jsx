@@ -88,7 +88,7 @@ const About = () => {
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
-            <Globe />
+            {/* <Globe /> */}
           </figure>
         </div>
         {/* Grid 4 */}
@@ -111,7 +111,7 @@ const About = () => {
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
-            <Frameworks />
+            {/* <Frameworks /> */}
           </div>
         </div>
       </div>

@@ -21,7 +21,7 @@ const Hero = () => {
         className="absolute inset-0"
         style={{ width: "100vw", height: "100vh" }}
       >
-        <Canvas camera={{ position: [0, 1, 3], fov: 50 }}>
+        {/* <Canvas camera={{ position: [0, 1, 3], fov: 50 }}>
           <ambientLight intensity={0.8} />
           <directionalLight position={[5, 5, 5]} intensity={1} />
           <Suspense fallback={<Loader />}>
@@ -31,9 +31,9 @@ const Hero = () => {
                 position={isMobile && [-0.9, -1.5, -0.8]}
               />
             </Float> */}
-            {/* <Rig /> */}
-          </Suspense>
-        </Canvas>
+        {/* <Rig /> */}
+        {/* </figure></Suspense>
+        </Canvas> */}
       </figure>
     </section>
   );
