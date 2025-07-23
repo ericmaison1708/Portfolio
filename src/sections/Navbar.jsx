@@ -15,13 +15,13 @@ function Navigation() {
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#work">
-          Work
+        <a className="nav-link" href="#project">
+          Project
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#contact">
-          Contact
+        <a className="nav-link" href="#work">
+          Work
         </a>
       </li>
     </ul>
@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="mx-auto c-space max-w-7xl">
         <div className="flex items-center justify-between py-2 sm:py-0">
           <a className="texl-xl font-bold transition-colors text-neutral-400 hover:text-white">
-            Eric
+            DAO MAI SON
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}
