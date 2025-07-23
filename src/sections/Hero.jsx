@@ -25,12 +25,12 @@ const Hero = () => {
           <ambientLight intensity={0.8} />
           <directionalLight position={[5, 5, 5]} intensity={1} />
           <Suspense fallback={<Loader />}>
-            <Float>
+            {/* <Float>
               <Astronaut
                 scale={isMobile && 0.5}
                 position={isMobile && [-0.9, -1.5, -0.8]}
               />
-            </Float>
+            </Float> */}
             {/* <Rig /> */}
           </Suspense>
         </Canvas>
