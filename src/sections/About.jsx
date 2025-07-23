@@ -83,7 +83,8 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in Long Bien- Ha Noi, and open to work in Ha Noi
+              I'm based in Long Bien – Ha Noi, and open to hybrid or on-site
+              opportunities in Ha Noi or nearby areas.
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -104,8 +105,9 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools that
-              allow me to build robust and scalable applications
+              I work with tools and frameworks across the entire data lifecycle.
+              I strive to design robust, scalable, and secure data platforms for
+              real-world applications.
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">

@@ -11,9 +11,9 @@ export const myProjects = [
       "Developed an interactive dashboard website using HTML, CSS, and JavaScript with embedded Power BI insights.",
       "Analyzed trends across hotel categories, restaurant cuisines, and tourist destinations by location, rating, price, and features.",
     ],
-    href: "https://ericmaison1708.github.io/web-gproject/index.html#!",
+    href: "https://ericmaison1708.github.io/Web_DATN/",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/gproject.png",
     tags: [
       {
         id: 1,
