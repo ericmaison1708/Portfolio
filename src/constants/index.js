@@ -55,7 +55,7 @@ export const myProjects = [
     ],
     href: "https://github.com/ericmaison1708/EricRedditDataEngineering",
     logo: "",
-    image: "/assets/projects/RedditETLDataPipeline.png",
+    image: "/assets/projects/RedditETLPipeline.png",
     tags: [
       {
         id: 1,
