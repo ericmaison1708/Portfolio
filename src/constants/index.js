@@ -99,112 +99,36 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Uber ETL Data Pipeline",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "An end-to-end ETL pipeline for processing and analyzing Uber trip data.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Developed a data pipeline on Google Cloud Platform using Mage.",
+      "Analyzed ride data in BigQuery and visualized insights with Looker Studio",
     ],
-    href: "",
+    href: "https://github.com/ericmaison1708/Uber_ETL",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/uber-etl.jpg",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "Python",
+        path: "/assets/logos/python.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Google Cloud Platform",
+        path: "/assets/logos/gcp.svg",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
+        name: "Looker Studio",
+        path: "/assets/logos/looker.svg",
       },
       {
         id: 4,
-        name: "Microsoft",
+        name: "Big Query",
         path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
@@ -254,7 +178,7 @@ export const experiences = [
   {
     title: "Data Engineer",
     job: "FPT IS",
-    date: "12/2024-Present",
+    date: "12/2024-07/2025",
     contents: [
       "Collaborated with the Data Platform team (DPA) on real-world ETL workflows, supporting banking and enterprise data pipelines.",
       "Built and scheduled robust ETL jobs using Oracle Data Integrator (ODI), including Mapping, Package, CDC, and SCD Type 2 implementations for large-scale Oracle databases.",

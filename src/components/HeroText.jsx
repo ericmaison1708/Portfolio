@@ -20,7 +20,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi I'm Eric
+          Hi I'm Dao Mai Son
         </motion.h1>
         <div className="flex flex-col items-start">
           <motion.p
